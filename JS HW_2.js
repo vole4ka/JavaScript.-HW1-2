@@ -12,11 +12,10 @@ if (proba.length>64){                                   //должно быть 
 if (!/[a-zа-яёА-ЯЁA-Z]+/.test(proba))                   //проверка на наличие букв
      {console.log("Error! No letters in the string")}
 if (!/^.*[A-ZА-ЯЁ]+.*$/.test(proba)){                   //проверка на наличие буквы в верхнем регистре
-     console.log("There is no uppercase letter")
-}
+     console.log("There is no uppercase letter")}
 if (!/\d/.test(proba)){                                 //должна быть хотя бы одна цифра
      console.log("Error! No number")}
 if (!/[@]/.test(proba)){                                //должен быть символ @
      console.log("Error! No @")}
 }}
-check_proba("j8kgb")
+check_proba("")
